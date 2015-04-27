@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sodapp</string>
+    <string name="ID_AD_MOB_MAIN">ca-app-pub-8642896372691767/8996466360</string>
+    <string name="ID_AD_MOB_CAPTCHA">ca-app-pub-8642896372691767/1333598766</string>
+    <string name="ID_AD_MOB_BALANCE">ca-app-pub-8642896372691767/8717264764</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="undo">Desfazer</string>
+
+    <!-- Menu -->
+    <string name="main_add">Adicionar</string>
+
+    <!-- Activies -->
+    <string name="activity_cards">Cartões</string>
+    <string name="activity_new_card">Adicionar</string>
+
+    <!-- Cards Activity -->
+    <string name="cards_activity_no_cards">Vocẽ não possui nenhum cartão cadastrado!\nToque para adicionar.</string>
+    <string name="cards_activity_edit">Editar</string>
+    <string name="cards_activity_add">Adicionar</string>
+    <string name="cards_activity_ads">Anúncios</string>
+    <string name="cards_activity_delete">Excluir</string>
+    <string name="cards_activity_delete_message">Card removido com sucesso!</string>
+    <string name="cards_activity_last">Consulta:</string>
+    <string name="cards_activity_no_balance">Nenhuma consulta.</string>
+
+    <!-- Splashscreen Activity -->
+    <string name="splash_activity_error_find_my_cards">Erro ao buscar os cartões cadastrados!</string>
+
+    <!-- New Card Activity -->
+    <string name="new_card_activity_name">Nome</string>
+    <string name="new_card_activity_name_tip">Nome/descrição do seu cartão</string>
+    <string name="new_card_activity_name_validate">Nome inválido</string>
+    <string name="new_card_activity_number">Número do cartão</string>
+    <string name="new_card_activity_number_tip">6060 1252 4545 7878</string>
+    <string name="new_card_activity_number_validate">Número do cartão inválido</string>
+    <string name="new_card_activity_cpf">CPF</string>
+    <string name="new_card_activity_cpf_tip">12345678900</string>
+    <string name="new_card_activity_cpf_validate">CPF inválido</string>
+    <string name="new_card_activity_type_choose">Escolha um tipo...</string>
+    <string name="new_card_activity_type">Tipo de benefício</string>
+    <string name="new_card_activity_type_tip">Toque para selecionar o tipo de benefício</string>
+    <string name="new_card_activity_type_validate">Tipo de benefício obrigatório</string>
+    <string name="new_card_activity_save">Salvar</string>
+    <string name="new_card_activity_save_success">Cartão salvo com sucesso!</string>
+    <string name="new_card_activity_updated_success">Cartão atualizado com sucesso!</string>
+
+    <!-- Balance Activity -->
+    <string name="balance_card_card">Cartão:</string>
+    <string name="balance_card_enterprise">Empresa:</string>
+    <string name="balance_card_name">Nome:</string>
+    <string name="balance_card_status">Status:</string>
+    <string name="balance_card_error">Ocorreu um problema em nossos servidores, tente novamente mais tarde.</string>
+
+    <!--Sodexo Enum-->
+    <string name="sodexo_enum_codigo_seguranca_invalido">Código de segurança inválido!</string>
+    <string name="sodexo_enum_cartao_invalido">Não foi encontrado um cartão válido para os dados informados!</string>
+    <string name="sodexo_enum_cpf_invalido">CPF informado inválido!</string>
+    <string name="sodexo_enum_dados_incorretos">Os dados informados não são consistentes</string>
+
+    <!-- Erros -->
+    <string name="falha_conexao">Falha na Conexão</string>
+    <string name="exception_erro">ERRO</string>
+    <string name="exception_erro_desconhecido">Erro desconhecido</string>
+    <string name="exception_erro_400_bad_request">Não foi possível localizar o endereço solicitado</string>
+    <string name="exception_erro_401_unauthorized">Usuário ou Senha inválidos</string>
+    <string name="exception_erro_500_internal_server_error">Ah, que pena, nosso servidor encontra-se em manutenção, tente mais tarde!</string>
+    <string name="exception_erro_502_bad_gateway">Ah, que pena, não foi possível comunicar-se com o serviço, posíveis causas: Gateway/Proxy</string>
+    <string name="exception_erro_408_bad_gateway">Não foi possível efetuar login, verifique sua conexão com a internet.</string>
+    <string name="exception_erro_504_gateway_time_out">Ah, que pena, não foi possível buscar a requisição no tempo máximo de espera</string>
+    <string name="exception_erro_err_internet_disconnected">Não foi possível encontrar conexão com a internet. Tente novamente!</string>
+
+</resources>

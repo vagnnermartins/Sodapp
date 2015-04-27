@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vagnnermartins.adbelem.ui.activity.ChurchDetailActivity">
+
+    <item
+        android:id="@+id/menu_add"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/cards_activity_add"
+        android:icon="@drawable/ic_add"/>
+
+    <item
+        android:id="@+id/menu_remove_ad"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/cards_activity_ads"
+        android:visible="false"/>
+
+</menu>

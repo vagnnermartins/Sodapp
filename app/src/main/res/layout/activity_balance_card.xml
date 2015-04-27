@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <com.vagnnermartins.sodapp.ui.view.GeneralSwipeRefreshLayout
+        android:id="@+id/balance_card_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/balance_card_adview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/white"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/ID_AD_MOB_BALANCE" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/balance_card_adview"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/balance_card_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:divider="@android:color/transparent" />
+
+                <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                    android:id="@+id/balance_card_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.vagnnermartins.sodapp.ui.view.GeneralSwipeRefreshLayout>
+</RelativeLayout>

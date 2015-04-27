@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_balance_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BENEFICIO"
+            android:textColor="@color/primary_text"
+            android:textSize="16sp"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/item_balance_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quarta-feira, 23 de Janeiro de 2015"
+            android:textColor="@color/second_text" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/item_balance_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center|right"
+        android:layout_weight="3"
+        android:gravity="center|right"
+        android:text="8.50"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="21sp" />
+
+</LinearLayout>

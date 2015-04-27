@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scaleType="fitStart"
+            android:src="@drawable/image_alimentacao_pass" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/balance_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="Vagner Pereira Martins"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/balance_card_enterprise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Call Tecnologia"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/balance_card_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6060 2020 5050 1010"
+                android:textColor="@color/primary_text" />
+
+            <TextView
+                android:id="@+id/balance_card_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saldo sujeito a alterações até o final do dia"
+                android:textColor="@color/primary_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/balance_card_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$:50.39"
+        android:textColor="@color/primary_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"/>
+</LinearLayout>
